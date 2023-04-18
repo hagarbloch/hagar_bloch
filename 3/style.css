@@ -1,0 +1,24 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 8px;
+    padding: 2px;
+    border: 1px solid black;
+}
+p{
+    background-color: lightpink;
+}
+h1{
+    color: lightskyblue;
+}
+.classA {
+    background-color: rgb(187, 158, 245);
+    color: rgb(5, 13, 20);
+    display: block;
+}
+div a{
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+}
