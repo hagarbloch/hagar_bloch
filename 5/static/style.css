@@ -6,7 +6,7 @@
 
 .GridContainer {
     display: grid;
-    grid-template-areas: 'header header header' "left right right";
+    grid-template-areas: 'header header header' "left right right" "bottomleft bottomright bottomright";
 }
 
 .item1 {
@@ -29,6 +29,17 @@
     grid-area: right;
     background-color: lightblue;
 }
+.item4 {
+    grid-area: bottomleft;
+    background-color: darksalmon;
+}
+
+.item5 {
+    grid-area: bottomright;
+    background-color: mistyrose;
+}
+
+
 @media  only screen and (max-width:800px) {
     .GridContainer {
         display: grid;
